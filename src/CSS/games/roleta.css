@@ -1,0 +1,11 @@
+.parent-container {
+  width: 380px;
+  height: 380px;
+  z-index: 0;
+  
+
+  > div {
+       height: 80%;
+       width: 80%;
+  }
+}

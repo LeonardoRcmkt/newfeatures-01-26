@@ -1,0 +1,100 @@
+/* 
+#meus-premios .swiper-horizontal .swiper {
+  overflow: visible !important;
+  display: block !important;
+}
+
+@media screen and (min-width: 768px){
+
+  #meus-premios .swiper-horizontal {
+    overflow: visible !important;
+  }
+
+} */
+  
+/* Style swiper */
+
+/* .swiper-meus-premios {
+  display: none !important;
+  background-color: red !important;
+}
+
+#meus-premios .swiper{
+  padding: 0px !important;
+  margin: 0px !important;
+  overflow: visible !important;
+}
+
+#meus-premios .swiper-wrapper{
+ margin: 0px !important;
+ 
+}
+
+.swiper-meus-premios [class^='swiper-button-'] {
+  inset: initial;
+  margin: 0;
+  align-self: center;
+}
+
+
+
+
+.swiper .swiper-button-prev {
+  justify-self: start;
+  margin-left: 2px;
+  transform: scaleX(-1);
+}
+
+.swiper .swiper-button-next {
+  justify-self: end;
+  margin-right: 2px;
+}
+
+.prev-cp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  width: 20%;
+  height: 20%;
+  max-width: 100px;
+  background-image: url('/images/home/arrow.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  z-index: 60;
+}
+.next-cp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  width: 20%;
+  height: 20%;
+  max-width: 100px;
+  background-image: url('/images/home/arrow.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 10;
+}
+.swiper-pagination {
+  position: absolute !important
+  ;
+}
+
+#meus-premios .swiper-pagination-bullet {
+  background: white !important ;
+}
+#meus-premios .swiper-pagination-bullet-active {
+  background: white !important;
+}
+
+.slide-in {
+  transform: translateX(0) !important;
+  opacity: 1 !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: var(--swiper-pagination-bottom, 0px) !important;
+} */

@@ -1,0 +1,15 @@
+export const adapterConfig = {
+  documento: 'numero_documento',
+  documentoEntrar: 'numero_documento',
+  nascimento: 'dt_nascimento',
+  genero: 'sexo',
+  cep: 'cependereco',
+  numero: 'numero_endereco',
+  confirmarEmail: 'confirma_email',
+  senha: 'senha_acesso',
+  senhaLogin: 'senha_acesso',
+  confirmarSenha: 'confirmar_senha_acesso',
+  regulamento: 'leu_aceitou_regulamento',
+  politica: 'politica_privacidade',
+  mailing: 'receberMensagens',
+};

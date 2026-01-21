@@ -1,0 +1,68 @@
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+  }
+
+  body {
+    font-family: "FireSans", sans-serif;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    font-variant-ligatures: none;
+    @apply bg-primary bg-cover bg-no-repeat bg-center font-paragraph bg-fixed;
+  }
+
+  .bg-primary,
+  .bg-secondary {
+    @apply bg-cover bg-no-repeat bg-center font-paragraph bg-fixed;
+  }
+
+  .section-home {
+    @apply rounded-t-3xl overflow-hidden pt-28 md:pt-36 gap-12 md:gap-16 md:p-16 px-4 py-12 h-auto flex flex-col justify-center items-center relative;
+  }
+
+  .wrapper-home {
+    @apply max-w-7xl  gap-12 md:gap-16  h-auto flex flex-col justify-center items-center w-full;
+  }
+
+  .section-home-primary,
+  .section-home-secondary {
+    @apply bg-cover bg-no-repeat bg-center font-paragraph bg-fixed rounded-2xl;
+  }
+
+  .section-home-primary {
+    @apply shadow-neon-xl bg-primary  rounded-br-5xl;
+  }
+
+  .section-home-secondary {
+    @apply shadow-lg bg-secondary  rounded-bl-5xl;
+  }
+
+  .main-internas {
+    @apply flex gap-12 md:gap-16 flex-col justify-center items-center  relative pb-14 w-full;
+  }
+
+  .rounded-secondary-md {
+    @apply rounded-2xl rounded-bl-5xl;
+  }
+  .rounded-secondary-sm {
+    @apply rounded-2xl rounded-bl-4xl;
+  }
+  .rounded-primary-md {
+    @apply rounded-2xl rounded-br-5xl;
+  }
+  .rounded-primary-sm {
+    @apply rounded-2xl rounded-br-4xl;
+  }
+
+  .container-primary,
+  .container-secondary {
+    @apply w-full text-center rounded-2xl rounded-br-5xl justify-center backdrop-blur-xl items-center flex flex-col gap-8 max-w-4xl px-6 py-8 md:p-8;
+  }
+  .container-primary {
+    @apply bg-primary-500/15 shadow-neon-container-pri;
+  }
+  .container-secondary {
+    @apply bg-white/15 shadow-neon-container-sec;
+  }
+}
