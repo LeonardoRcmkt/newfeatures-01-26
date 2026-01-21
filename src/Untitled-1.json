@@ -1,0 +1,26 @@
+{
+  "entrada": {
+    "dados_cliente": {
+      "cpf": 320320,
+      "nome_completo": "",
+      "data_nascimento": "",
+      "email": "",
+      "genero": "",
+      "cep": "",
+      "uf": "",
+      "cidade": "",
+      "bairro": "",
+      "rua": "",
+      "numero": "",
+      "complemento": "",
+      "ponto_referencia": "",
+      "aceite_regulamento": "",
+      "aceite_privacidade": "",
+      "aceite_rctrade": ""
+    }
+  },
+  "saida": {
+    "message": "Dados do usuário inseridos/alterados com sucesso.",
+    "token": ""
+  }
+}
