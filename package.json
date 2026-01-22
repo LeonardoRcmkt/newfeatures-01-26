@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
     "@tanstack/react-virtual": "^3.11.2",
     "axios": "^1.6.7",
     "flowbite": "^4.0.0",
@@ -24,7 +25,9 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.71.1",
     "react-icons": "^5.5.0",
+    "react-imask": "^7.6.1",
     "react-infinite-scroller": "^1.2.6",
+    "react-input-mask": "^2.0.4",
     "react-intersection-observer": "^9.5.3",
     "react-lazy-load-image-component": "^1.6.3",
     "react-modal": "^3.16.1",
@@ -34,7 +37,9 @@
     "react-scroll-parallax": "^3.4.5",
     "sweetalert2": "^11.6.13",
     "sweetalert2-react-content": "^5.0.7",
-    "swiper": "^11.0.5"
+    "swiper": "^11.0.5",
+    "valibot": "^1.2.0",
+    "zod": "^4.3.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.17",

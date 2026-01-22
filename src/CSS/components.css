@@ -20,6 +20,11 @@
     @apply absolute text-sm text-primary-500 cursor-text duration-300 transform -translate-y-3 scale-75 top-3 origin-[0] left-3 peer-focus:text-primary-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3 uppercase font-bold
   }
 
+  .form-inputs-wrapper{
+    @apply flex w-full gap-2 flex-col
+  }
+
+  
 
   /*Checkbox  */
 
@@ -220,6 +225,10 @@
 }
 .button-navigation-sair{
 @apply text-base text-xs md:w-fit text-right opacity-75 
+}
+
+.button-disabled{
+  @apply opacity-50 hover:scale-100 hover:brightness-100 cursor-not-allowed  hover:cursor-not-allowed
 }
 
 /* Header */
