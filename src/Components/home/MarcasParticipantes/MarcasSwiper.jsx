@@ -30,6 +30,8 @@ export const MarcasSwiper = () => {
     fetchData();
   }, []);
 
+
+
   const marcasPorSlide = isMobile ? 16 : 27;
   const grupos = chunkArray(data, marcasPorSlide);
 
