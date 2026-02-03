@@ -25,6 +25,7 @@ import { RedesParticipantes } from "./pages/RedesParticipantes.jsx";
 import { PreCadastro } from "./pages/PreCadastro.jsx";
 import { Exercicios } from "./Components/Exercicios.jsx"
 import { Exercicio2 } from "./Components/Exercicio2.jsx";
+import { Exercicio3 } from "./Components/Exercicio3.jsx";
 
 const router = createBrowserRouter([
   {
@@ -111,6 +112,11 @@ const router = createBrowserRouter([
       {
         path: "/exercicio2/",
         element: <Exercicio2/>,
+      },
+      
+      {
+        path: "/exercicio3/",
+        element: <Exercicio3/>
       },
     ],
   },
