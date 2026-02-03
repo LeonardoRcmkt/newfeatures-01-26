@@ -42,6 +42,7 @@ export const Exercicio3 = () => {
 
       {arrayVis.map(
         (item, index) => item + (index === item.length - 1 && ", "),
+        // ADICIONAR lógica de não colocar vírgula no último item - ainda está errada
       )}
     </section>
   );
