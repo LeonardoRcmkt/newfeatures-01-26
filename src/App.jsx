@@ -26,6 +26,7 @@ function App() {
     "/cadastrar-cupons/",
     "/game/",
     "/ganhadores/",
+    "/exercicios/",
     "/produtos-participantes/",
     "/redes-participantes/",
     "/duvidas/",

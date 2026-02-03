@@ -24,6 +24,10 @@ export const links = [
     name: 'Dúvidas',
     link: '/duvidas/',
   },
+  {
+    name: 'Exercícios',
+    link: '/exercicios/',
+  }
 ];
 
 export const linksInterno = [

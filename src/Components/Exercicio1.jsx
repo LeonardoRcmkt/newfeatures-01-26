@@ -1,17 +1,7 @@
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
-import { useContext, useEffect, useState } from "react";
-import { AppContext } from "../../data/AppContext";
-import { useInView } from "react-intersection-observer";
-import { Detalhe } from "./Detalhe";
-import { motion } from "motion/react";
-import { HomeAnimation } from "./HomeAnimation";
-import { TrackSection } from "../../data/TrackSection";
-import { Button } from "../../Components/Button";
-export const Hero = () => {
-  const { ref } = TrackSection("-10% 0% 0% 0%");
-  const token = localStorage.getItem("token");
+import { useEffect, useState } from "react";
+import { Button } from "./Button";
 
+export const Exercicio1 = () => {
   // Versão só com useState
 
   // const [count, setCount] = useState(0);
@@ -45,7 +35,6 @@ export const Hero = () => {
 
 
   return (
-    <>
       <section className="section-home section-home-primary md:pt-56">
         <Button color="secondary" onClick={() => increase()}>
           Aumentar
@@ -57,6 +46,5 @@ export const Hero = () => {
           Reset
         </Button>
       </section>
-    </>
   );
 };

@@ -23,6 +23,8 @@ import { ProdutosParticipantes } from "./pages/ProdutosParticipantes.jsx";
 import { RecuperarSenha } from "./pages/RecuperarSenha.jsx";
 import { RedesParticipantes } from "./pages/RedesParticipantes.jsx";
 import { PreCadastro } from "./pages/PreCadastro.jsx";
+import { Exercicios } from "./Components/Exercicios.jsx"
+import { Exercicio2 } from "./Components/Exercicio2.jsx";
 
 const router = createBrowserRouter([
   {
@@ -91,6 +93,10 @@ const router = createBrowserRouter([
         element: <Ganhadores />,
       },
       {
+        path: "/exercicios/",
+        element: <Exercicios />,
+      },
+      {
         path: "/recuperar-senha/:token/",
         element: <RecuperarSenha />,
       },
@@ -101,6 +107,10 @@ const router = createBrowserRouter([
       {
         path: "/redes-participantes/",
         element: <RedesParticipantes />,
+      },
+      {
+        path: "/exercicio2/",
+        element: <Exercicio2/>,
       },
     ],
   },
