@@ -1,7 +1,6 @@
 function createAdder(a) {
   return function add(b) {
-    const sum = a + b;
-    return sum;
+    return a = a + b;
   };
 }
 const addTo = createAdder(4);
@@ -12,11 +11,14 @@ const Bvalue = Avalue(10);
 // console.log(Bvalue(5));
 
 var createCounter = function(n) {
-  let currentCount = n - 1;
   return function() {
-    currentCount += 1;
-    return currentCount;      
+    return n++;      
   };
 };
-const fn = createCounter(1)
+const fn = createAdder(1)
+console.log(fn(6))
+console.log(fn(0))
+console.log(fn(1))
+console.log(fn(4))
+console.log(fn(-20))
 console.log(fn(6))

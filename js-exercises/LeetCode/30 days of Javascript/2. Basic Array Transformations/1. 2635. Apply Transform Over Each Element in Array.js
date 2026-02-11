@@ -9,11 +9,10 @@ function constant() {
 }
 
 const map = (arr, fn) => {
-  const returnedArray = [arr];
   for (let i = 0; i <= arr.length - 1; i++) {
-    returnedArray[i] = fn(arr[i], i);
+    arr[i] = fn(arr[i], i);
   }
-  return returnedArray;
+  return arr;
 };
 
 console.log(map([1, 2, 3], plusone));
